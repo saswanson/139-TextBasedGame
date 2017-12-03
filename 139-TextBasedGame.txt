@@ -1,0 +1,44 @@
+1.3.9: A Text Based Adventure Game
+The Goal: To create a complete text game.
+
+The program will let users move through rooms based on user input and get descriptions of each room. To create this, you’ll need to establish the directions in which the user can move, a way to track how far the user has moved (and therefore which room he/she is in), and to print out a description.
+
+Concepts to keep in mind:
+• Strings
+• Variables
+• Input/Output
+• If/Else Statements
+• Loops (for and while)
+• Print
+• List
+• Integers
+• Variable scope
+  o Local vs global scope
+
+The tricky parts here will involve setting up the directions and keeping track of just how far the user has “walked” in the game.  If you want to build this into a vast, complex word, the coding will get substantially harder, especially if you want your user to start interacting with actual objects within the game.  The complexity of each room should vary.
+
+
+Basic Project Criteria
+• You will need to plan before you begin (for example: create a map of your game world).
+• You will need to assign one person to be the team leader.
+• Each person on the team will be responsible for the design of a minimum of one room in the game world.
+• Each person on the team will be responsible for understanding ALL the code produced by members of their team.
+• Each team will have a repository on GitHub.  This repository will allow all team members to access and edit the contents of the repository.    Each team member can work on a separate Python file to complete their room(s) within this repository and the team leader can compile these programming changes into one master file for the game
+
+Game Criteria
+• A minimum of 6 rooms (or something equivalent to rooms).
+• At least one “locked” door that can only be entered if the user finds an item to open the door.
+• At least one room that is too dark to see into without first finding a light source.
+• At least one room that can only be opened if a certain number of items has been found.
+• At least one list variable that keeps track of all items found by the user.
+• The user should be able to interact with objects in the room
+  o Ex: open drawers in furniture, pick up objects, look under objects
+• The user will be prompted if trying to perform an action that is impossible
+  o Ex: trying to open a door that is locked, trying to walk in a direction out of a room where there is no door, trying to pick up an object that is too large, trying to open an object that can’t open, trying to perform an action that isn’t defined, etc.
+• A room in which something happens if the user is holding a specific object.
+
+
+Some of the concepts from this project come from:  
+https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/
+
+
