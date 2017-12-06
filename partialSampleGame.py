@@ -23,11 +23,11 @@ def room1():
     while exitRoom == False:
         if userAction == 'open door 1' and 'key1' in playerItems:
             print('The door slowly creaks open')
-            openedDoors += 'door1'
+            openedDoors += ['door1']
             exitRoom = True
         elif userAction == 'open door 2' and 'flashlight' in playerItems:
             print('You open the door and can now see inside with the flashlight.')
-            openedDoors += 'door2'
+            openedDoors += ['door2']
             exitRoom = True
         elif userAction == 'open dresser':
             print('You picked up', dresserItems)
